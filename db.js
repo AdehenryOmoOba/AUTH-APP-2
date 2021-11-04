@@ -1,6 +1,6 @@
 require('./models/user-model')
 const mongoose = require('mongoose');
-const uri =  DB_URI;
+const uri =  process.env.DB_URI;
 
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true}, (err) => {
   if(err){
