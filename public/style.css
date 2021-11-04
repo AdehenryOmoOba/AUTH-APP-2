@@ -1,0 +1,35 @@
+.home,.login,.register,.dashboard{
+    font-size: 16px;
+    background-color: rgb(217, 241, 181);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.main{
+    margin-top: 3rem;
+}
+.btn.btn-info{
+    background-color: darkolivegreen;
+}
+.btn.btn-info:hover{
+    background-color: whitesmoke;
+    color: darkolivegreen;
+}
+ form{
+    margin: 2rem 0 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ label,.error-msg{
+   text-align: center;
+   width: 100%;
+}
+.form-group{
+    width: 40rem;
+}
+a{
+    margin: 0 1rem;
+}
